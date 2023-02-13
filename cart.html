@@ -6,9 +6,7 @@
         <meta http-equiv="X-UA-Compatiple" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale= 1.0">
         <title></title>
-        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
         <link rel="stylesheet" href="style.css">
     </head>
     
@@ -21,49 +19,86 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html"  class="active">About</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="shop.html"><i class="fa fa-shopping-bag"></i></a></li>
+                    <li id="lg-bag"><a class="active" href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
                 </ul>
             </div>
         </section>
 
         <section id="page-header" class="about-header">
-            <h2>#AboutUs</h2>
-            <p>An original marketplace with ICP</p>
-        </section>
-
-        <section id="about-head" class="section-p1">
-            <img src="img/about/a6.jpg" alt="">
-            <div>
-                <h2>Who We Are?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin sem in egestas pulvinar. Aliquam non nisl varius, posuere elit ut, hendrerit libero. </br> 
-                    Cras et nunc quis sem volutpat facilisis.<br> Cras velit sem, tincidunt in aliquam quis, rhoncus nec mauris.</br> Maecenas facilisis euismod sapien, sollicitudin bibendum massa viverra eget. Donec rutrum porta nibh, eu tempor est placerat sed. Praesent diam nisl, placerat et vestibulum venenatis, vulputate id arcu. Suspendisse at eros quis sapien vehicula rutrum ut in libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed id orci justo. 
-                </p>
-                <br><br>
-            </div>
-
-        </section>
-
-        <section id="about-app"  class="section-p1">
-            <h1>Download Our <a href="#">App</a></h1>
-            <div class="video">
-                <video  autoplay muted loop src="img/about/1.mp4"></video>
-            </div>
-        </section>
-
-        <section id="newsletter" class="section-p1 section-m1">
-            <div class="newstext">
-                <h4>Sign Up for newsletter</h4>
-                <p>Get email updates about our latest shop and <span>special offers.</span></p>
-            </div>
-            <div class="form">
-                <input type="text" placeholder="Your email address">
-                <button>Sign Up</button>
-
-            </div>
+            <h2>#talkwithus</h2>
+            <p>We are here for you!</p>
         </section>
         
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#"></a><i class="fa fa-solid fa-trash"></i></a></td>
+                        <td><img src="img/products/f1.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"></a><i class="fa fa-solid fa-trash"></i></a></td>
+                        <td><img src="img/products/f2.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td><a href="#"></a><i class="fa fa-solid fa-trash"></i></a></td>
+                        <td><img src="img/products/f3.jpg" alt=""></td>
+                        <td>Cartoon Astronaut T-Shirts</td>
+                        <td><input type="number" value="1"></td>
+                        <td>$120</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cat Subtotal</td>
+                        <td>$360</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Title</strong></td>
+                        <td><strong>$360</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+
+
+            </div>
+
+        </section>
+
         <footer id="footer" class="section-p1">
             <div class="col">
                 <!-- <img src="img/icplab-low-resolution-logo-color-on-transparent-background.png" alt=""> -->
